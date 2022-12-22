@@ -1,0 +1,50 @@
+.social {
+    text-align: center;
+    padding: 6rem 4rem;
+}
+
+.social h2 {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    color: rgb(179, 179, 179);
+    border: none;
+}
+
+.hashtag {
+    font-size: 2.5rem;
+    margin-bottom: 4rem;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(4, auto);
+    width: 50%;
+    margin: auto;
+    gap: 0.2rem;
+}
+
+.images img {
+    width: 100%;
+    object-fit:fill;
+}
+
+.newsletter {
+    margin-top: 3rem;
+}
+
+.newsform .suscribe {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+form {
+    margin-top: 2rem;
+}
+
+form input {
+    width: 50%;
+    padding: 0.5rem 1rem;
+    font-family: 'Arimo', sans-serif;
+}

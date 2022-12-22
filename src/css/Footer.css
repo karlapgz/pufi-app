@@ -1,0 +1,28 @@
+footer {
+    margin-top: 15rem;
+    padding: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid #000;
+}
+
+footer .logo {
+    color: #000;
+}
+
+footer li {
+    color: #000;
+    list-style: none;
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.social-media i {
+    color: #000;
+    margin: 0 0.5rem;
+}
+
+.menu_footer li{
+    display: flex;
+}
